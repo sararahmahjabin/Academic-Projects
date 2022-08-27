@@ -1,0 +1,31 @@
+Order_id,Food_id,Quantity,Unit_price
+20,1,good,90
+21,2,good,90
+22,3,good,60
+23,4,Very good,120
+24,5,Very good,120
+25,6,good,50
+26,7,good,30
+27,8,good,15
+28,9,good,5
+29,10,good,5
+30,11,good,20
+31,12,good,30
+32,13,good,20
+33,14,good,20
+34,15,good,70
+35,16,good,55
+36,17,good,35
+37,18,good,15
+38,19,good,30
+39,20,good,25
+40,21,good,15
+41,22,good,20
+42,23,good,20
+43,24,good,35
+44,25,Very good,120
+45,26,Very good	,150
+46,27,good,20
+47,28,good,15
+48,29,good,20
+49,30,good,5

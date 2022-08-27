@@ -1,0 +1,65 @@
+
+
+#include "DHT.h"
+#include<LiquidCrystal.h>
+#include <SoftwareSerial.h>
+
+LiquidCrystal lcd(12,11,6,5,4,3);
+SoftwareSerial mySerial(8,9); 
+
+#define dht_1 2
+#define DHTTYPE DHT11
+DHT dht(dht_1, DHTTYPE);
+
+
+void setup() {
+  // put your setup code here, to run once:
+  mySerial.begin(9600);
+  Serial.begin(9600);
+  lcd.begin(16,2);
+  Serial.println();
+  
+  dht.begin();
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  float temp = dht.readTemperature();
+  float humid = dht.readHumidity();
+  
+
+  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print("Temperature:");
+  lcd.setCursor(12,0);
+  lcd.print(temp);
+  lcd.setCursor(15,0);
+  lcd.print("C");
+  lcd.setCursor(0,1);
+  lcd.print("Humidity:");
+  lcd.setCursor(12,1);
+  lcd.print(humid);
+  lcd.setCursor(15,1);
+  lcd.print("%");
+  delay(100);
+
+  if(temp>=24)
+  {
+   SendMessage();
+   while(1); 
+  }
+
+  }
+
+  void SendMessage()
+  {
+    mySerial.println("AT+CMGF=1");
+    delay(1000);
+    mySerial.println("AT+CMGS=\"+8801790842646\"\r");
+    delay(1000);
+    mySerial.println("High Temperature! Please save products.");
+    delay(1000);
+    mySerial.println((char)26);
+    delay(1000); 
+  }

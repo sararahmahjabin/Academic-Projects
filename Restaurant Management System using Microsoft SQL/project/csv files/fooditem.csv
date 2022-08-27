@@ -1,0 +1,31 @@
+Food_id	,Item_name,Quantity,Unit_price,Item_catagory
+1,fried rice,good,90,lunch
+2,kichuri,good,90,lunch
+3,rice with curry,good,60,lunch
+4,beef tehari,good,120,lunch
+5,chicken biriyani,good,120,lunch
+6,egg kichuri,good,50,lunch
+7,burger,good,30,snacks
+8,Vegetable roll,good,15,snacks
+9,Singara,good,5,snacks
+10,Somucha,good,5,snacks
+11,noodles,good,20,snacks
+12,chicken fry,good,30,snacks
+13,french fry,good,20,snacks
+14,chicken roll	,good,20,snacks
+15,pasta,good,70,snacks
+16,nachos,good,55,snacks
+17,Muffin,good,35,dessert
+18,pudding,good,15,dessert
+19,donuts,good,30,dessert
+20,chocolate cake,good,25,dessert
+21,water,good,15,drinks
+22,orange juice,good,20,drinks
+23,lemonade,good,20,drinks
+24,apple juice,good,35,drinks
+25,milk shake,good,120,drinks
+26,oreo shake,good,150,drinks
+27,coca cola,good,20,drinks
+28,fanta,good,15,drinks
+29,coffee,good,20,drinks
+30,tea,good,5,drinks

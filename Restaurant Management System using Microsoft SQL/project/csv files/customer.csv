@@ -1,0 +1,21 @@
+Customer_id ,Customer_name , Email ,Payment_id,Food_id
+101,Mack,mack01@gmail.com,P101,1
+102,Devid,devid02@gmail.com,P102,2
+103,Donald,donald03@yahoo.com,P103,3
+104,Max	,maxx04@gmail.com,P104,4
+105,Sam	,sam05@gmail.com,P105,5
+106,Muller,mulr06@hotmail.com,P106,6
+107,Rocky,roxx07@gmail.com,P107,7
+108,Maxie,maxie08@gmail.com,P108,8
+109,Leo,leo09@gmail.com	,P109,9
+110,Samuel,sam110@hotmail.com,P110,10
+201,Danish,dan201@gmail.com,P201,11
+202,Merry,mry202@gmail.com,P202,12
+203,Jas,jas203@yahoo.com,P203,13
+204,Maggie,magg204@gmail.com,P204,14
+205,Hannah,han205@hotmail.com,P205,15
+206,Devid,devd206@gmail.com,P206,16
+207,Danial,danial207@gmail.com,P207,17
+208,Sunny,sun208@gmail.com,P208,18
+209,Weber,web209@gmail.com,P209,19
+210,Tina,tintin210@gmail.com,P210,20
